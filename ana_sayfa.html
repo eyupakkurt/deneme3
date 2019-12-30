@@ -1,0 +1,134 @@
+<html>
+<head><meta charset="utf-8"><title>dream.com</title>
+  <script type="text/Javascript" language="Javascript">
+    startList = function(){
+if (document.all&&document..getElementById){
+navRoot = document.getElementById("menu");
+for (i=0; i<navRoot.childNodes.length; i++){
+node = navRoot.childNodes[i];
+if (node.nodeName=="LI") {
+node onmouseover=function(){
+this.className+=" over";}
+node.onmouseout=function(){
+this.className=this.className.replace(" over", "");}}}}}
+window.onload=startlist;
+
+function arama()
+{
+var kelime='memoryhackers'+document.getElementById('kelime').value;
+window.open('kadın.html='+kelime);
+}
+</script>
+<style type="text/css">*{box-sizing: border-box}/* ******** NOT:yuzdelik uzunluk vermeye calistim ama diger monitor farlı acıyor **********; */
+ul#menu, ul#menu ul{ list-style:none; margin:0; padding:0; text-align:center;margin-left:15%;}
+ul#menu li{ float:left; position:relative; width:150px;}
+ul#menu li ul{ display:none;}
+ul#menu li a{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; display:block;
+border-width:1px; border-style:solid; margin:0px; padding: 2px 0px;color:white; background-color: #800000; text-decoration:none;}
+ul#menu li a:hover{background-color:black;}
+
+ul#menu li:hover ul, ul#menu li.over ul{display:block;}
+
+  .eyup{margin-top: 43%;margin-left:97%; 
+   transform: rotate(-40deg);}
+
+  .daire{border:1px solid blue;height:150px;border-radius:45px;width:150px;background-image:url("a/a2.jpg");background-size:100%100%;float:left;margin-left:17.5%;}
+  .daire:hover{border:1px solid red;}
+  .hr{width:100%;margin-top:10%;}
+  .sosyal{height:70%;width:100%;border:0.2px solid #dddddd;background-color:#dddddd;margin-top:10%;}
+  .indirim{width:100%;font-size:20px;}
+  .reklamlar{height:70%;width:55%;border:0.2px solid #dddddd;margin-top:12%;}
+      .res1{margin-left:5%;height:40%;width:30%;background-image:url("a/a1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res1:hover{background-image:url("a/a2.jpg");background-size:100%100%;}
+    	.res2{height:40%;width:30%;background-image:url("a/b1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res2:hover{background-image:url("a/b2.jpg");background-size:100%100%;}
+    	.res3{height:40%;width:30%;background-image:url("a/c1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res3:hover{background-image:url("a/c2.jpg");background-size:100%100%;}
+      .res4{margin-left:5%;height:40%;width:30%;background-image:url("a/d1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res4:hover{background-image:url("a/d2.jpg");background-size:100%100%;}
+    	.res5{height:40%;width:30%;background-image:url("a/f1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res5:hover{background-image:url("a/f2.jpg");background-size:100%100%;}
+    	.res6{height:40%;width:30%;background-image:url("a/g1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res6:hover{background-image:url("a/g2.jpg");background-size:100%100%;}
+    	.res7{margin-left:5%;height:40%;width:30%;background-image:url("a/e1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res7:hover{background-image:url("a/e2.jpg");background-size:100%100%;}
+    	.res8{height:40%;width:30%;background-image:url("a/h1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res8:hover{background-image:url("a/h2.jpg");background-size:100%100%;}
+    	.res9{height:40%;width:30%;background-image:url("a/ı1.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}.res9:hover{background-image:url("a/ı2.jpg");background-size:100%100%;}
+	.arkaplan{height: 100%;width: 100%;background-image:url("a1/dream.jpg");background-size:100%100%;border-radius:0px 0px 120px 0px;border:2px solid red;} 
+	.odeme{height:3%;width:15%;padding:2px;font-size:12px;float:left;text-align:center;margin-left:8%;}
+	.acılır_menu{width:100%;height:10%;}
+	.anamenu{cursor:hand;font-size:14px;width:100px;text-align:center;float:left;margin-top:4%;margin-left:1%;}
+  .anamenu a{color: #D50000;text-decoration: none;}
+  .rasgeleresim{height: 28%;width:60%;
+                animation:image 5s infinite alternate;}
+                @keyframes image{
+                0%{background:url("a1/a.jpg");background-repeat: no-repeat;background-position: center;}
+                50%{background:url("a1/b.jpg");background-repeat: no-repeat;background-position: center;}
+                100%{background:url("a1/c.gif");background-repeat: no-repeat;background-position: center;}
+</style>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+
+<div class="arkaplan">  
+  <div class="acılır_menu">
+     <ul id="menu">
+        <li><a href="kadın.html">KADIN</a></li>
+        <li><a href="erkek.html">ERKEK</a></li>
+        <li><a href="#">İÇERİK</a>
+          <ul>
+          <li><a href="#sosyal">Hakkımızda</a></li>
+          <li><a href="#sosyal">Kaydol</a></li>
+          <li><a href="#sosyal">İletişime Geç</a></li>
+          </ul>
+          </li>        
+</ul>  
+<center><input type="text" id="kelime" placeholder="Neye baktın ?" />
+            <input type="button" onClick="arama()" value="ARA"/></center>         
+  </div>  
+      <div class="eyup">EYUP</div>      
+</div>
+<div class="odeme"><marquee>KAPIDA ÖDEME</marquee></div>
+<div class="odeme"><marquee>HIZLI ALIŞVERİŞ</marquee></div>
+<div class="odeme"><marquee>CARTFİNANS</marquee></div>
+<div class="odeme"><marquee>VİSA</marquee></div><br>
+	  <center>
+	<div class="rasgeleresim"></div>
+  <div class="daire"></div>
+  <div class="daire"></div>
+  <div class="daire"></div>
+	<div class="reklamlar">
+		<div class="res1"></div>
+		<div class="res2"></div>
+		<div class="res3"></div>
+		<div class="res4"></div>
+		<div class="res5"></div>
+		<div class="res6"></div>
+		<div class="res7"></div>
+		<div class="res8"></div>
+		<div class="res9"></div>
+		<div class="indirim">%İNDİRİM KATAGORİLERİ%</div>
+	</div>
+    </center>
+	<div class="sosyal" id="sosyal">
+		<hr width="10%"></hr>
+		<hr width="10%"></hr>
+		<div class="odeme">Unvan :Etkin Patent Marka Tas. Fikri ve Telf. Hak. ve Huk. Hiz. ve Dan. LTD. ŞTİ.</div>
+		<div class="odeme">İnciraltp Mah, Şht. Ertuğrul Kabataş Cd. No:14/8, 34387 İnciraltı/İzmir Türkiye</div>
+		<div class="odeme">Bilgi :@eyupakkurt.com</div>
+		<div class="odeme">Mersis No  :  0381037008000011</div><br><br><br><br><br><br>
+    <center>
+         <input type=text placeholder="Adınız ?">
+         <input type=text placeholder="Soyadınız ?"><br>
+         <input type=text placeholder="mail ?">
+         <input type=text placeholder="sifre ?"><br>
+         <input type=radio>Beni Unutma<br>
+         <input type=button  value="Kaydet">
+        </center>
+        <hr class="hr"></hr>
+		<div class="odeme">@Trukka İnternet Teknolojileri - Tüm Hakları Saklıdır</div>
+		<div class="odeme">@2019 Etlin Patent<br>EPA</div>
+	</div>
+</body>
+</html>

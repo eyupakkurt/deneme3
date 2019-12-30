@@ -1,0 +1,211 @@
+<html>
+	<head><meta charset="UTF-8"><title>dream.com</title>
+	<script type="text/Javascript" language="Javascript">
+		var sayac_1=0;
+function yaz_1()
+{
+sayac_1++;
+document.form.sayac_1.value=sayac_1;
+alert("Sepete Eklendi :)");
+}
+
+
+var resim=new Array() 
+resim[0]="k/a.jpg"
+resim[1]="k/b.png"
+resim[2]="k/c.jpg"
+resim[3]="k/d.png"
+resim[4]="k/e.jpg"
+
+var delay=1000
+var count =0;
+ 
+var cubeimage=new Array()
+for (i=0;i<resim.length;i++){
+cubeimage[i]=new Image()
+cubeimage[i].src=resim[i]
+}
+function movecube(){
+if (window.createPopup)
+cube.filters[0].apply()
+document.images.cube.src=cubeimage[count].src;
+if (window.createPopup)
+cube.filters[0].play()
+count++;
+if (count==cubeimage.length)
+count=0;
+setTimeout("movecube()",delay)
+}
+window.onload=new Function("setTimeout('movecube()',delay)");
+
+function test() 
+{
+document.getElementById("menu_acılır") .classList.toggle("goster");
+    	}
+</script> 
+		<style type="text/css">*{box-sizing: border-box}
+		    .rescerceve{height: 35%;width: 100%;}
+		    body{background:	#E0F7FA;}
+			.button{
+				cursor:pointer;	
+				background:#D50000;
+				color:white;
+				font-size: 3px;
+				padding: 20px;
+				width: 100%;
+				opacity: 0.4;
+			    }
+			.button:hover{opacity: 1}
+			.menu
+			    {
+			    padding: 2px;
+                position: fixed;
+                display: inline-block;
+                min-width: 10%;
+                height: 100%;
+                margin-left:4%;
+			    margin-top: 4%;
+			    }    
+			.acılır_menu
+			    {
+			    display: none;
+			    position: absolute;
+			    overflow: auto;
+			    min-width: 90%;
+			    }  
+			.acılır_menu a
+			    {
+				text-align: center;
+				font-size: 3px;
+				color:black;
+				display:block;
+				text-decoration: none;
+			    }
+			.acılır_menu a:hover{background:#ddd;}
+			.goster{display: block;}
+    .logo{border:1px solid blue;height:150px;border-radius:75px;width:150px;background-image:url("logo/logo.png");
+          background-size:70%70%;float:right;background-repeat:no-repeat;background-position:center center;margin-top: 3%;}
+	.odeme{height:4%;width:10%;padding:2px;font-size:12px;float:left; margin-left:12%;text-align:center;margin-top: 0px;}
+    .sosyal{height:40%;width:100%;border:0.2px solid #dddddd;background-color:#dddddd;margin-top:0%;}
+    .hr{width:100%;margin-top:3%;}
+    .bot{text-decoration:none;font-size:30px;margin-top:0px;}
+    .reklamlar{height:65%;width:65%;border:0.2px solid #dddddd;margin-top:1%;}
+    .anamenu1{position:relative;display:inline-block;text-align:center;width:20%;}
+    .anamenu1:hover
+    .sayfa{display:block;}.sayfa{display:none;}.sayfa a{cursor:hand;}
+        .bres1{height:48%;width:100%;background-image:url("e1/a.jpg");background-size:100%100%;
+        background-repeat:no-repeat;}
+    	.bres2{height:48%;width:100%;background-image:url("e1/b.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.bres3{height:48%;width:100%;background-image:url("e1/c.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+        .bres4{height:48%;width:100%;background-image:url("e1/d.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.bres5{height:48%;width:100%;background-image:url("e1/f.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.bres6{height:48%;width:100%;background-image:url("e1/e.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.bres7{height:48%;width:100%;background-image:url("e/a.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.bres8{height:48%;width:100%;background-image:url("e/b.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+
+    	.sres1{height:48%;width:100%;background-image:url("e/a.jpg");background-size:100%100%;
+        background-repeat:no-repeat;}
+    	.sres2{height:48%;width:100%;background-image:url("e/b.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.sres3{height:48%;width:100%;background-image:url("e/c.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+        .sres4{height:48%;width:100%;background-image:url("e/d.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.sres5{height:48%;width:100%;background-image:url("e1/a.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.sres6{height:48%;width:100%;background-image:url("e/g.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.sres7{height:48%;width:100%;background-image:url("e1/b.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+    	.sres8{height:48%;width:100%;background-image:url("e/h.jpg");background-size:100%100%;
+    	float:left;background-repeat:no-repeat;}
+		</style>
+    </head>
+    <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+   
+    <center>
+    <div class="rescerceve">
+    <img src="k/c.jpg" name="cube" style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle='PUSH')" width="100%" height="100%" align="left"> 
+    </div>
+
+    </center> 
+    	<div class="menu">
+    	 <center><button type="submit" onclick="test()" class="button">SECENEKLER</button></center>
+    	  <div id="menu_acılır" class="acılır_menu">
+    	  	<br>
+    	   <a href="#bot">BOT</a><br>
+    	   <a href="#spor">SPOR</a><br>
+          </div>
+        </div><form  name="form">
+        <center><div class="logo"><input type="text" name="sayac_1" maxlength="20" size="2" valign="center"><br>SEPET</div></center>
+<center>
+<div class="bot" id="bot">BOT</div>
+<div class="reklamlar">	
+    <div class="anamenu1"><div class="bres1"></div><div class="sayfa">
+    <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;248-TL</div></div>
+    <div class="anamenu1"><div class="bres2"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;320-TL</div></div>
+    <div class="anamenu1"><div class="bres3"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;284-TL</div></div>
+    <div class="anamenu1"><div class="bres4"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;299-TL</div></div>
+    <div class="anamenu1"><div class="bres5"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;300-TL</div></div>
+    <div class="anamenu1"><div class="bres6"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;351-TL</div></div>
+    <div class="anamenu1"><div class="bres7"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;154-TL</div></div>
+    <div class="anamenu1"><div class="bres8"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;199-TL</div></div>
+</div><br>
+<div class="odeme"><marquee onmouseOver="this.stop();" onmouseOut="this.start();">KAPIDA ÖDEME</marquee></div>
+<div class="odeme"><marquee onmouseOver="this.stop();" onmouseOut="this.start();">CARTFİNANS</marquee></div>
+<div class="odeme"><marquee onmouseOver="this.stop();" onmouseOut="this.start();">VİSA</marquee></div><br><br>
+<div class="bot" id="spor">SPOR</div>
+<div class="reklamlar">	
+    <div class="anamenu1"><div class="sres1"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;200-TL</div></div>
+    <div class="anamenu1"><div class="sres2"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;275-TL</div></div>
+    <div class="anamenu1"><div class="sres3"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;310-TL</div></div>
+    <div class="anamenu1"><div class="sres4"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;240-TL</div></div>
+    <div class="anamenu1"><div class="sres5"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;358-TL</div></div>
+    <div class="anamenu1"><div class="sres6"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;299-TL</div></div>
+    <div class="anamenu1"><div class="sres7"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;199-TL</div></div>
+    <div class="anamenu1"><div class="sres8"></div><div class="sayfa">
+     <input type="button" value="Sepete Ekle" onclick="yaz_1()">&emsp;299-TL</div></div>
+</div><br>
+</center>
+<div class="sosyal">
+		<hr width="10%"></hr>
+		<hr width="10%"></hr>
+		<div class="odeme">Unvan :Etkin Patent Marka Tas. Fikri ve Telf. Hak. ve Huk. Hiz. ve Dan. LTD. ŞTİ.</div>
+		<div class="odeme">İnciraltp Mah, Şht. Ertuğrul Kabataş Cd. No:14/8, 34387 İnciraltı/İzmir Türkiye</div>
+		<div class="odeme">Bilgi :@eyupakkurt.com</div>
+		<div class="odeme">Mersis No  :  0381037008000011</div><br><br><br><br><br><br>
+		<center>
+         <input type=text placeholder="Adınız ?">
+         <input type=text placeholder="Soyadınız ?"><br>
+         <input type=text placeholder="mail ?">
+         <input type=text placeholder="sifre ?"><br>
+         <input type=radio>Beni Unutma<br>
+         <input type=button  value="Kaydet">
+        </center>
+		<hr class="hr"></hr>
+		<div class="odeme">@Trukka İnternet Teknolojileri - Tüm Hakları Saklıdır</div>
+		<div class="odeme">@2019 Etkin Patent<br>EPA</div>
+	</div>
+</form></form></body>
+</html>
